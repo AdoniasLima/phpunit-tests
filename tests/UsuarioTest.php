@@ -16,4 +16,18 @@ class UsuarioTest extends TestCase
 		echo $usuario->getNomeCompleto();
 
 	}
+
+	public function testIdade()
+	{	
+
+		/*
+		$usuario = new Usuario();
+		$usuario->setIdade(90);
+
+		$this->assertEquals(90, $usuario->getIdade());
+		*/
+	
+		$this->markTestIncomplete("Falta implementar os métodos set e get de idade do usuario.");
+
+	}
 }
